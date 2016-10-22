@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C22A8C81DB9AB72001E4F3E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C22A8C71DB9AB72001E4F3E /* CoreLocation.framework */; };
 		9C317C921DB65A9B00C56143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317C911DB65A9B00C56143 /* main.m */; };
 		9C317C951DB65A9B00C56143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317C941DB65A9B00C56143 /* AppDelegate.m */; };
-		9C317C981DB65A9B00C56143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317C971DB65A9B00C56143 /* ViewController.m */; };
 		9C317C9B1DB65A9B00C56143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C317C991DB65A9B00C56143 /* Main.storyboard */; };
 		9C317C9D1DB65A9B00C56143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C317C9C1DB65A9B00C56143 /* Assets.xcassets */; };
 		9C317CA01DB65A9B00C56143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C317C9E1DB65A9B00C56143 /* LaunchScreen.storyboard */; };
 		9C317CAB1DB65A9C00C56143 /* CNN_Weather_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317CAA1DB65A9C00C56143 /* CNN_Weather_TestTests.m */; };
 		9C317CB61DB65A9C00C56143 /* CNN_Weather_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317CB51DB65A9C00C56143 /* CNN_Weather_TestUITests.m */; };
+		9C317CC81DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C317CC71DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.m */; };
+		9C37AF7F1DB906EF007D10B7 /* CWTWeatherSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF7E1DB906EF007D10B7 /* CWTWeatherSetup.m */; };
+		9C37AF821DB90705007D10B7 /* CWTWeatherDataPull.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF811DB90705007D10B7 /* CWTWeatherDataPull.m */; };
+		9C37AF8C1DB90814007D10B7 /* CWTHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF8B1DB90814007D10B7 /* CWTHeaderView.m */; };
+		9C37AF8F1DB90825007D10B7 /* CWTCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF8E1DB90825007D10B7 /* CWTCellTableViewCell.m */; };
+		9C37AF921DB9083F007D10B7 /* CWTDetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF911DB9083F007D10B7 /* CWTDetailViewViewController.m */; };
+		9C37AF951DB908DF007D10B7 /* CWTData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AF941DB908DF007D10B7 /* CWTData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C22A8C71DB9AB72001E4F3E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9C317C8D1DB65A9B00C56143 /* CNN Weather Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CNN Weather Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C317C911DB65A9B00C56143 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C317C931DB65A9B00C56143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C317C941DB65A9B00C56143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C317C961DB65A9B00C56143 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C317C971DB65A9B00C56143 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C317C9A1DB65A9B00C56143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C317C9C1DB65A9B00C56143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C317C9F1DB65A9B00C56143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,20 @@
 		9C317CB11DB65A9C00C56143 /* CNN Weather TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CNN Weather TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C317CB51DB65A9C00C56143 /* CNN_Weather_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNN_Weather_TestUITests.m; sourceTree = "<group>"; };
 		9C317CB71DB65A9C00C56143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C317CC61DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTWeatherReportTableViewTableViewController.h; sourceTree = "<group>"; };
+		9C317CC71DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTWeatherReportTableViewTableViewController.m; sourceTree = "<group>"; };
+		9C37AF7D1DB906EF007D10B7 /* CWTWeatherSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTWeatherSetup.h; sourceTree = "<group>"; };
+		9C37AF7E1DB906EF007D10B7 /* CWTWeatherSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTWeatherSetup.m; sourceTree = "<group>"; };
+		9C37AF801DB90705007D10B7 /* CWTWeatherDataPull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTWeatherDataPull.h; sourceTree = "<group>"; };
+		9C37AF811DB90705007D10B7 /* CWTWeatherDataPull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTWeatherDataPull.m; sourceTree = "<group>"; };
+		9C37AF8A1DB90814007D10B7 /* CWTHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTHeaderView.h; sourceTree = "<group>"; };
+		9C37AF8B1DB90814007D10B7 /* CWTHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTHeaderView.m; sourceTree = "<group>"; };
+		9C37AF8D1DB90825007D10B7 /* CWTCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTCellTableViewCell.h; sourceTree = "<group>"; };
+		9C37AF8E1DB90825007D10B7 /* CWTCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTCellTableViewCell.m; sourceTree = "<group>"; };
+		9C37AF901DB9083F007D10B7 /* CWTDetailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTDetailViewViewController.h; sourceTree = "<group>"; };
+		9C37AF911DB9083F007D10B7 /* CWTDetailViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTDetailViewViewController.m; sourceTree = "<group>"; };
+		9C37AF931DB908DF007D10B7 /* CWTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTData.h; sourceTree = "<group>"; };
+		9C37AF941DB908DF007D10B7 /* CWTData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C22A8C81DB9AB72001E4F3E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C22A8C61DB9AB72001E4F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C22A8C71DB9AB72001E4F3E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C317C841DB65A9B00C56143 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,7 @@
 				9C317CA91DB65A9C00C56143 /* CNN Weather TestTests */,
 				9C317CB41DB65A9C00C56143 /* CNN Weather TestUITests */,
 				9C317C8E1DB65A9B00C56143 /* Products */,
+				9C22A8C61DB9AB72001E4F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +133,14 @@
 			children = (
 				9C317C931DB65A9B00C56143 /* AppDelegate.h */,
 				9C317C941DB65A9B00C56143 /* AppDelegate.m */,
-				9C317C961DB65A9B00C56143 /* ViewController.h */,
-				9C317C971DB65A9B00C56143 /* ViewController.m */,
+				9C317CC61DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.h */,
+				9C317CC71DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.m */,
+				9C37AF901DB9083F007D10B7 /* CWTDetailViewViewController.h */,
+				9C37AF911DB9083F007D10B7 /* CWTDetailViewViewController.m */,
+				9C37AF891DB907ED007D10B7 /* Views */,
+				9C37AF791DB906A7007D10B7 /* Functions */,
+				9C37AF931DB908DF007D10B7 /* CWTData.h */,
+				9C37AF941DB908DF007D10B7 /* CWTData.m */,
 				9C317C991DB65A9B00C56143 /* Main.storyboard */,
 				9C317C9C1DB65A9B00C56143 /* Assets.xcassets */,
 				9C317C9E1DB65A9B00C56143 /* LaunchScreen.storyboard */,
@@ -138,6 +174,28 @@
 				9C317CB71DB65A9C00C56143 /* Info.plist */,
 			);
 			path = "CNN Weather TestUITests";
+			sourceTree = "<group>";
+		};
+		9C37AF791DB906A7007D10B7 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				9C37AF7D1DB906EF007D10B7 /* CWTWeatherSetup.h */,
+				9C37AF7E1DB906EF007D10B7 /* CWTWeatherSetup.m */,
+				9C37AF801DB90705007D10B7 /* CWTWeatherDataPull.h */,
+				9C37AF811DB90705007D10B7 /* CWTWeatherDataPull.m */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		9C37AF891DB907ED007D10B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C37AF8A1DB90814007D10B7 /* CWTHeaderView.h */,
+				9C37AF8B1DB90814007D10B7 /* CWTHeaderView.m */,
+				9C37AF8D1DB90825007D10B7 /* CWTCellTableViewCell.h */,
+				9C37AF8E1DB90825007D10B7 /* CWTCellTableViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C317C981DB65A9B00C56143 /* ViewController.m in Sources */,
 				9C317C951DB65A9B00C56143 /* AppDelegate.m in Sources */,
+				9C317CC81DB65D0800C56143 /* CWTWeatherReportTableViewTableViewController.m in Sources */,
+				9C37AF8F1DB90825007D10B7 /* CWTCellTableViewCell.m in Sources */,
+				9C37AF821DB90705007D10B7 /* CWTWeatherDataPull.m in Sources */,
+				9C37AF7F1DB906EF007D10B7 /* CWTWeatherSetup.m in Sources */,
 				9C317C921DB65A9B00C56143 /* main.m in Sources */,
+				9C37AF8C1DB90814007D10B7 /* CWTHeaderView.m in Sources */,
+				9C37AF951DB908DF007D10B7 /* CWTData.m in Sources */,
+				9C37AF921DB9083F007D10B7 /* CWTDetailViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +571,7 @@
 				9C317CBC1DB65A9C00C56143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C317CBD1DB65A9C00C56143 /* Build configuration list for PBXNativeTarget "CNN Weather TestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				9C317CBF1DB65A9C00C56143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C317CC01DB65A9C00C56143 /* Build configuration list for PBXNativeTarget "CNN Weather TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				9C317CC21DB65A9C00C56143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

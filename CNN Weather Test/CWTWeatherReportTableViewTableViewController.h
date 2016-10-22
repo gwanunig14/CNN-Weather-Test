@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CWTWeatherReportTableViewTableViewController.h
 //  CNN Weather Test
 //
 //  Created by TJ Mercer on 10/18/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CWTWeatherReportTableViewTableViewController : UITableViewController
 
 @end
-
